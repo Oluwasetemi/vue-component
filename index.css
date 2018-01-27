@@ -1,0 +1,14 @@
+body {
+  margin: auto 40px;
+}
+
+#app {
+  border: 2px solid #232323;
+}
+.app {
+  border: 2px solid #ccd862;
+}
+div {
+  border: 2px solid #1fbbe2;
+
+}

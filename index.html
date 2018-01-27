@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="index.css">
+<div id="app">
+  <my-component></my-component>
+  <div>
+    {{ message }}
+    <p v-if="!value" >Show when value is true</p>
+    <button v-on:click="changeMessage" >Click me</button>
+  </div>
+  <my-component> </my-component>
+</div>
+
+<script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+<script src="index.js"></script>
